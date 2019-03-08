@@ -21,8 +21,8 @@ const displayQuery = function(event) {
   $('.text-body2').empty();
   $('.text-body3').empty();
   const stock = $(this).attr('data-name');
-  const queryURL = `http://api.iextrading.com/1.0/stock/${stock}/batch?types=quote,news,chart&range=1m&last=10`;
-  const logoURL = `http://api.iextrading.com/1.0/stock/${stock}/logo/`;
+  const queryURL = `https://api.iextrading.com/1.0/stock/${stock}/batch?types=quote,news,chart&range=1m&last=10`;
+  const logoURL = `https://api.iextrading.com/1.0/stock/${stock}/logo/`;
 
   $.ajax({
     url: queryURL,
