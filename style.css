@@ -1,0 +1,16 @@
+button {
+  margin-right:20px;
+}
+
+img {
+  float:right;
+}
+span {
+  font-weight: bold;
+}
+
+#body {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
